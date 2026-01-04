@@ -1,0 +1,309 @@
+/* Updated: 2025-12-28T06:19:03.058Z */
+/* Updated: 2025-12-25T17:34:11.471Z */
+/* Updated: 2025-12-25T05:27:45.569Z */
+/* Updated: 2025-12-25T05:27:24.609Z */
+/* Updated: 2025-12-25T05:26:52.785Z */
+/* Updated: 2025-12-25T05:26:35.955Z */
+/* Updated: 2025-12-21T04:56:02.242Z */
+/* Updated: 2025-12-21T04:53:28.551Z */
+/* Updated: 2025-12-19T09:54:35.294Z */
+/* Updated: 2025-12-18T15:15:00.542Z */
+/* Updated: 2025-12-18T15:14:21.405Z */
+/* Updated: 2025-12-18T15:00:58.591Z */
+/* Updated: 2025-12-18T14:57:13.570Z */
+/* Updated: 2025-12-17T07:30:12.205Z */
+/* Updated: 2025-12-17T07:27:25.488Z */
+/* Updated: 2025-12-17T07:13:09.097Z */
+/* Updated: 2025-12-16T16:56:14.035Z */
+/* Updated: 2025-12-16T16:50:55.671Z */
+/* Updated: 2025-12-16T16:47:12.049Z */
+/* Updated: 2025-12-16T05:59:17.684Z */
+/* Updated: 2025-12-16T05:46:54.317Z */
+/* Updated: 2025-12-15T09:52:36.641Z */
+/* Updated: 2025-12-15T09:41:51.725Z */
+/* Updated: 2025-12-15T09:32:48.200Z */
+/* Updated: 2025-12-15T09:29:18.759Z */
+/* Updated: 2025-12-15T09:13:33.662Z */
+/* Updated: 2025-12-15T09:13:05.838Z */
+/* Updated: 2025-12-15T08:13:38.191Z */
+/* Updated: 2025-12-15T08:12:23.270Z */
+/* Updated: 2025-12-15T08:10:31.974Z */
+/* Updated: 2025-12-15T08:07:25.270Z */
+/* Updated: 2025-12-15T08:06:52.316Z */
+/* Updated: 2025-12-15T07:55:13.913Z */
+/* Updated: 2025-12-07T14:35:00.408Z */
+/* Updated: 2025-12-07T07:56:13.121Z */
+/* Updated: 2025-12-07T03:15:26.659Z */
+/* Updated: 2025-12-06T18:08:19.929Z */
+/* Updated: 2025-12-06T18:02:51.810Z */
+/* Updated: 2025-12-06T13:47:34.415Z */
+/* Updated: 2025-12-05T02:37:10.083Z */
+/* Updated: 2025-12-05T02:07:26.450Z */
+/* Updated: 2025-12-04T05:35:12.098Z */
+/* Updated: 2025-12-03T15:21:22.662Z */
+/* Updated: 2025-12-03T13:29:54.200Z */
+/* Updated: 2025-12-02T12:20:31.889Z */
+/* Updated: 2025-12-02T09:08:42.126Z */
+/* Updated: 2025-12-02T08:55:34.471Z */
+/* Updated: 2025-11-30T05:10:59.741Z */
+/* Updated: 2025-11-30T03:07:06.267Z */
+/* Updated: 2025-11-30T02:59:28.270Z */
+/* Updated: 2025-11-30T02:42:49.891Z */
+/* Updated: 2025-11-30T02:31:56.053Z */
+/* Updated: 2025-11-29T12:59:24.414Z */
+/* Updated: 2025-11-29T06:20:24.509Z */
+/* Updated: 2025-11-29T06:17:04.729Z */
+/* Updated: 2025-11-29T06:04:41.131Z */
+/* Updated: 2025-11-29T06:03:33.371Z */
+/* Updated: 2025-11-28T16:44:38.427Z */
+/* Updated: 2025-11-28T16:27:54.209Z */
+/* Updated: 2025-11-28T16:09:01.203Z */
+/* Updated: 2025-11-28T14:58:12.337Z */
+/* Updated: 2025-11-28T14:37:56.748Z */
+/* Updated: 2025-11-28T13:36:20.860Z */
+/* Updated: 2025-11-28T10:08:45.926Z */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: 'Inter', var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-display: 'Space Grotesk', var(--font-geist-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  --radius: 0.75rem;
+  --background: oklch(0.06 0.015 280);
+  --foreground: oklch(0.97 0.01 280);
+  --card: oklch(0.1 0.02 280);
+  --card-foreground: oklch(0.97 0.01 280);
+  --popover: oklch(0.1 0.02 280);
+  --popover-foreground: oklch(0.97 0.01 280);
+  --primary: oklch(0.7 0.28 280);
+  --primary-foreground: oklch(0.98 0 0);
+  --secondary: oklch(0.15 0.02 280);
+  --secondary-foreground: oklch(0.97 0.01 280);
+  --muted: oklch(0.14 0.015 280);
+  --muted-foreground: oklch(0.6 0.02 280);
+  --accent: oklch(0.65 0.3 320);
+  --accent-foreground: oklch(0.98 0 0);
+  --destructive: oklch(0.65 0.25 25);
+  --border: oklch(0.22 0.025 280);
+  --input: oklch(0.18 0.02 280);
+  --ring: oklch(0.7 0.28 280);
+  --chart-1: oklch(0.7 0.28 280);
+  --chart-2: oklch(0.65 0.25 320);
+  --chart-3: oklch(0.7 0.2 200);
+  --chart-4: oklch(0.65 0.25 340);
+  --chart-5: oklch(0.7 0.22 160);
+  --sidebar: oklch(0.08 0.02 280);
+  --sidebar-foreground: oklch(0.97 0.01 280);
+  --sidebar-primary: oklch(0.7 0.28 280);
+  --sidebar-primary-foreground: oklch(0.98 0 0);
+  --sidebar-accent: oklch(0.15 0.02 280);
+  --sidebar-accent-foreground: oklch(0.97 0.01 280);
+  --sidebar-border: oklch(0.22 0.025 280);
+  --sidebar-ring: oklch(0.7 0.28 280);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Modern card hover effect */
+  .anime-card-hover {
+    transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  
+  .anime-card-hover:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 25px 50px -12px oklch(0.7 0.28 280 / 0.25);
+  }
+  
+  /* Gradient overlays */
+  .gradient-overlay {
+    background: linear-gradient(to top, oklch(0.06 0.015 280 / 0.95) 0%, transparent 100%);
+  }
+  
+  .banner-gradient {
+    background: linear-gradient(90deg, oklch(0.06 0.015 280 / 0.98) 0%, oklch(0.06 0.015 280 / 0.8) 40%, transparent 100%);
+  }
+  
+  /* Glass morphism */
+  .glass {
+    background: oklch(0.1 0.02 280 / 0.6);
+    backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid oklch(1 0 0 / 0.1);
+  }
+  
+  .glass-strong {
+    background: oklch(0.08 0.02 280 / 0.85);
+    backdrop-filter: blur(24px) saturate(200%);
+    border: 1px solid oklch(1 0 0 / 0.08);
+  }
+  
+  /* Glow effects */
+  .glow-primary {
+    box-shadow: 0 0 30px oklch(0.7 0.28 280 / 0.4), 0 0 60px oklch(0.7 0.28 280 / 0.2);
+  }
+  
+  .glow-accent {
+    box-shadow: 0 0 30px oklch(0.65 0.3 320 / 0.4), 0 0 60px oklch(0.65 0.3 320 / 0.2);
+  }
+  
+  .text-glow {
+    text-shadow: 0 0 20px oklch(0.7 0.28 280 / 0.5);
+  }
+  
+  /* Modern gradients */
+  .gradient-primary {
+    background: linear-gradient(135deg, oklch(0.7 0.28 280) 0%, oklch(0.65 0.3 320) 100%);
+  }
+  
+  .gradient-surface {
+    background: linear-gradient(180deg, oklch(0.12 0.02 280) 0%, oklch(0.08 0.015 280) 100%);
+  }
+  
+  .gradient-border {
+    background: linear-gradient(135deg, oklch(0.7 0.28 280 / 0.5) 0%, oklch(0.65 0.3 320 / 0.5) 100%);
+  }
+  
+  /* Animated gradient background */
+  .animated-gradient {
+    background: linear-gradient(-45deg, oklch(0.7 0.28 280), oklch(0.65 0.3 320), oklch(0.6 0.25 200), oklch(0.7 0.28 280));
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+  }
+  
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Animated text gradient */
+  .animate-gradient {
+    animation: gradient-text 3s linear infinite;
+  }
+  
+  @keyframes gradient-text {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 200% 50%; }
+  }
+  
+  /* Shimmer effect */
+  .shimmer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .shimmer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, transparent, oklch(1 0 0 / 0.1), transparent);
+    transform: translateX(-100%);
+    animation: shimmer 2s infinite;
+  }
+  
+  @keyframes shimmer {
+    100% { transform: translateX(100%); }
+  }
+  
+  /* Floating animation */
+  .float {
+    animation: float 6s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  /* Pulse glow */
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+  
+  @keyframes pulse-glow {
+    0%, 100% { box-shadow: 0 0 20px oklch(0.7 0.28 280 / 0.3); }
+    50% { box-shadow: 0 0 40px oklch(0.7 0.28 280 / 0.6); }
+  }
+  
+  /* Modern scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: oklch(0.1 0.015 280);
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: oklch(0.25 0.025 280);
+    border-radius: 4px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: oklch(0.7 0.28 280);
+  }
+  
+  /* Selection color */
+  ::selection {
+    background: oklch(0.7 0.28 280 / 0.3);
+    color: oklch(0.98 0 0);
+  }
+}
+
+/* Hide Next.js error overlay portal */
+nextjs-portal {
+  display: none !important;
+}
